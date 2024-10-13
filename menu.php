@@ -22,7 +22,7 @@
 <!DOCTYPE html>
 	<body>
 			<header id="header">
-				<h1><a href="index.php">KisanConnect</a></h1>
+				<h1><a href="index.php">Kisan Connect</a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>

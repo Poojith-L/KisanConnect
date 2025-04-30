@@ -40,7 +40,7 @@ CREATE TABLE `blogdata` (
 --
 
 INSERT INTO `blogdata` (`blogId`, `blogUser`, `blogTitle`, `blogContent`, `blogTime`, `likes`) VALUES
-(19, 'ThePhenom', 'First Blog', '<p>Its Awesome website<img alt="wink" src="https://cdn.ckeditor.com/4.8.0/full/plugins/smiley/images/wink_smile.png" style="height:23px; width:23px" title="wink" /></p>\r\n', '2018-02-25 13:09:41', 1);
+(20, 'poojith', 'E-Krishi', 'Demo', '2025-04-30 14:01:37', 1);
 
 -- --------------------------------------------------------
 
@@ -61,7 +61,7 @@ CREATE TABLE `blogfeedback` (
 --
 
 INSERT INTO `blogfeedback` (`blogId`, `comment`, `commentUser`, `commentPic`, `commentTime`) VALUES
-(19, 'Mast yarr', 'ThePhenom', 'profile0.png', '2018-02-25 13:09:54');
+(20, 'Hey, This website is really so helpful for farmers', 'poojith', 'profile0.png', '2025-04-30 14:13:54');
 
 -- --------------------------------------------------------
 
@@ -107,7 +107,7 @@ CREATE TABLE `farmer` (
 --
 
 INSERT INTO `farmer` (`fid`, `fname`, `fusername`, `fpassword`, `fhash`, `femail`, `fmobile`, `faddress`, `factive`, `frating`, `picExt`, `picStatus`) VALUES
-(3, 'Kaivalya Hemant Mendki', 'ThePhenom', '$2y$10$22ezmzHRa9c5ycHmVm5RpOnlT4LwFaDZar1XhmLRJQKGrcVRhPgti', '61b4a64be663682e8cb037d9719ad8cd', 'kmendki98@gmail.com', '8600611198', 'abcde', 0, 0, 'png', 0);
+(4, 'Poojith L', 'poojith', '$2y$10$CFplz8N1cNXpAfTbUu40tOJnWmirwPYJyCC91AFJ/d4ofmjeqqkRS', 'f033ab37c30201f73f142449d037028d', 'lpoojith9@gmail.com', '7022747501', 'Bengaluru', 0, 0, 'png', 0);
 
 -- --------------------------------------------------------
 
@@ -131,11 +131,10 @@ CREATE TABLE `fproduct` (
 --
 
 INSERT INTO `fproduct` (`fid`, `pid`, `product`, `pcat`, `pinfo`, `price`, `pimage`, `picStatus`) VALUES
-(3, 27, 'Mango', 'Fruit', '<p>Mango raseela</p>\r\n', 500, 'Mango3.jpeg', 1),
-(3, 28, 'Ladyfinger', 'Vegetable', '<p>Its veggie</p>\r\n', 1000, 'Ladyfinger3.jpg', 1),
-(3, 29, 'Bajra', 'Grains', '<p>bajre di rti</p>\r\n', 400, 'Bajra3.jpg', 1),
-(3, 30, 'Banana', 'Fruit', '<p>Jalgaon banana</p>\r\n', 400, 'Banana3.jpg', 1);
-
+(3, 29, 'Bajra', 'Grains', '<p>bajre di rti</p>\r\n', 400, 'bajra.jpg', 1),
+(4, 31, 'Apple', 'Fruit', '<p>Apple</p>\r\n', 200, 'Apple.jpg', 1),
+(4, 30, 'Mango', 'Fruit', '<p>Mango</p>\r\n', 100, 'mango.jpg', 1)
+(4, 33, 'LadyFinger', 'Vegetable', '<p>LadyFinger</p>\r\n', 50, 'LadyFinger.jpg', 1);
 -- --------------------------------------------------------
 
 --
@@ -152,7 +151,7 @@ CREATE TABLE `likedata` (
 --
 
 INSERT INTO `likedata` (`blogId`, `blogUserId`) VALUES
-(19, 3);
+(20, 1);
 
 -- --------------------------------------------------------
 
@@ -170,9 +169,8 @@ CREATE TABLE `mycart` (
 --
 
 INSERT INTO `mycart` (`bid`, `pid`) VALUES
-(3, 27),
-(3, 30);
-
+(1, 31),
+(1, 33);
 -- --------------------------------------------------------
 
 --
@@ -209,7 +207,7 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`tid`, `bid`, `pid`, `name`, `city`, `mobile`, `email`, `pincode`, `addr`) VALUES
-(1, 3, 28, 'sa,j,cns', 'sajc', 'sajch', 'kmendki98@gmail.com', 'sacu', 'ckaskjc');
+(2, 1, 31, 'Poojith L', 'Bengaluru', '7022747501', 'lpoojith9@gmail.com', '560067', 'Bengaluru');
 
 --
 -- Indexes for dumped tables

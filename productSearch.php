@@ -189,11 +189,6 @@
 					KisanConnect is an e-commerce services established by the students of Gopalan College of Engineering & Management, Hoodi
 					For bridging the gap between farmers and customers.
 				</p>
-				<div class="footer-icons">
-					<a  href="https://www.facebook.com/wceartcircle/"><i style="margin-left: 0;margin-top:5px;"class="fa fa-facebook"></i></a>
-					<a href="https://www.instagram.com/wce_artcircle/?hl=en"><i style="margin-left: 0;margin-top:5px" class="fa fa-instagram"></i></a>
-					<a href="https://www.youtube.com/channel/UCwyXHtmyoQI5EXKEBp2NaIQ"><i style="margin-left: 0;margin-top:5px" class="fa fa-youtube"></i></a>
-				</div>
 			</div>
 
 		</footer>

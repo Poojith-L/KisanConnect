@@ -113,9 +113,10 @@
 				KisanConnect is an e-commerce platform for supporting direct trading between farmers and families...
 			</p>
 			<div class="footer-icons">
-				<a  href="#"><i style="margin-left: 0;margin-top:5px;"class="fa fa-facebook"></i></a>
-				<a href="https://www.instagram.com/poojith.l/profilecard/?igsh=MTVyZm5uN3E0N3Nzbg=="><i style="margin-left: 0;margin-top:5px" class="fa fa-instagram"></i></a>
-				<a href="#"><i style="margin-left: 0;margin-top:5px" class="fa fa-youtube"></i></a>
+				<a href="https://www.linkedin.com/in/poojithl/"><i style="margin-left: 0;margin-top:5px" class="fa fa-linkedin"></i></a>
+				<a href="https://www.instagram.com/poojith.l/"><i style="margin-left: 0;margin-top:5px;"class="fa fa-instagram"></i></a>
+				<a href="https://x.com/poojith_l"><i style="margin-left: 0;margin-top:5px" class="fa fa-twitter"></i></a>
+				<a href="https://github.com/Poojith-L"><i style="margin-left: 0;margin-top:5px" class="fa fa-github"></i></a>
 			</div>
 		</div>
 
